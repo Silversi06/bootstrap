@@ -15,30 +15,42 @@
     <title>Container/Container</title>
     <style>
         div{
-            border:1px solid dodgerblue;
+            border:1px solid lightgreen;
             height: 50px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>그리드시스템</h1>
+    <h1>디바이스마다 달라지는 레이아웃</h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">col-sm-6 </div>
-            <div class="col-sm-6">col-sm-6 </div>
+            <div class="col-xs-12 ">lorem1</div> 
+            <!-- 노트북크기 : 8:4 테블릿 크기:6:6 핸드폰 크기:3:9-->
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-8">col-xs-8 </div>
-            <div class="col-xs-4">col-xs-4 </div>
+            <div class="col-md-8 col-xs-12">lorem2 </div>
+            <div class="col-md-4 col-xs-12 ">lorem3 </div> 
+            <!-- 노트북크기 : 8:4 테블릿 크기:6:6 핸드폰 크기:3:9-->
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8">col-sm-8</div>
-            <div class="col-sm-4">col-sm-4</div>
+            <div class="col-md-4 col-xs-12">lorem4 </div>
+            <div class="col-md-4 col-xs-12">lorem5 </div> 
+            <div class="col-md-4 col-xs-12">lorem6 </div> 
+            <!-- 노트북크기 : 8:4 테블릿 크기:6:6 핸드폰 크기:3:9-->
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 ">lorem7 </div>
+            <!-- 노트북크기 : 8:4 테블릿 크기:6:6 핸드폰 크기:3:9-->
+        </div>
+    </div>
+
+  
 </body>
 </html>
